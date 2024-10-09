@@ -1,0 +1,412 @@
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.parallax {
+    background-image: url("../images/architecture.jpg");
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.parallax1 {
+    background-image: url("../images/con2.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.parallax2 {
+    background-image: url("../images/electricity-structure.jpg");
+    min-height: 750px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.parallax-text2 {
+    position: absolute;
+    top: 30%;
+    left: 17%;
+    color: white;
+    /* text-align: center; */
+    font-size: 100px;
+    font-weight: bold;
+    line-height: 1.1;
+    border-radius: 10px;
+}
+
+.parallax-text3 {
+    position: absolute;
+    top: 100%;
+    left: 5%;
+    color: white;
+    font-size: 16px;
+    line-height: 1.1;
+    border-radius: 10px;
+}
+
+.parallax-text4 {
+    position: absolute;
+    top: 150%;
+    left: 39%;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.1;
+    text-decoration: none;
+}
+
+.parallax-text4:hover {
+    position: absolute;
+    top: 150%;
+    left: 39%;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.1;
+    text-decoration: none;
+}
+
+.parallax-text {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 80px;
+    font-weight: bold;
+    line-height: 1.1;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.navbar {
+    padding: 10px;
+    background-color: #D1D1D1E0 !important;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar-nav .nav-link {
+    /* color: #ff0000 !important; */
+    color: white;
+    margin-left: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btn-outline-success {
+    color: white !important;
+    border-color: white !important;
+}
+
+.btn-outline-success:hover {
+    background-color: white !important;
+    color: black !important;
+}
+
+.dropdown-menu {
+    background-color: rgba(209, 209, 209, 0.9);
+    border-radius: 5px;
+    border: none;
+    margin-top: 0;
+}
+
+.dropdown-item {
+    color: black;
+    margin-top: 5px;
+}
+
+.dropdown-item:hover {
+    background-color: rgba(146, 8, 8, 0.1);
+}
+
+.navbar-nav .nav-item:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+
+.nav-link:hover {
+    padding: 6px;
+    background-color: #151C23;
+    color: white !important;
+    border-radius: 5px;
+}
+
+.nav-link {
+    font-size: 17px;
+}
+
+#Quote {
+    padding: 7px;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+}
+
+.nav-link:active {
+    border: 1px solid black;
+    padding: 6px;
+}
+
+#seemore {
+    background-image: linear-gradient(to right, #2175bb, #073d69fb);
+    color: white;
+    cursor: pointer;
+}
+
+#seemore:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#learn {
+    background-image: linear-gradient(to right, #2175bb, #073d69fb);
+    color: white;
+}
+
+#learn:hover {
+    background-color: #151C23;
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+}
+
+#servicesoffer {
+    font-size: 40px;
+    background: linear-gradient(to right, #ff0000, #ff6328);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    display: inline-block;
+}
+
+#Specialized {
+    font-size: 40px;
+    background: linear-gradient(to right, black, rgba(0, 0, 0, 0.493));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    display: inline-block;
+}
+
+.back-to-top {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    transition: opacity 1s ease;
+    z-index: 99;
+}
+
+.container-fluid {
+    position: relative;
+    /* Ensures child elements are positioned relative to this container */
+}
+
+.overlay-text {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+}
+
+#network {
+
+    border-radius: 20px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("../images/network.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+
+#Submit:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+#Submit {
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+@media (max-width: 575.98px) {
+    .parallax-text {
+        font-size: 35px;
+        left: 50%;
+        top: 60%;
+        transform: translate(-50%, -50%);
+    }
+    .parallax {
+        min-height: 300px;
+    }
+    
+
+    #SOCIAL {
+        display: flex;
+        justify-content: flex-start !important;
+        margin-bottom: 10px;
+    }
+    #socialhead {
+        display: flex;
+        justify-content: start;
+    }
+
+    #Phonenum {
+        margin-left: 18px;
+        margin-top: 10px;
+    }
+
+    #Quote {
+        margin-left: 15px;
+    }
+    #email{
+        margin-top: 12px;
+    }
+    #subject{
+        margin-top: 10px;
+    }
+    #emailcon{
+        margin-top: 10px;
+    }
+    #headoff{
+        margin-top: 10px;
+    }
+}

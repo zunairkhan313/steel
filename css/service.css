@@ -1,0 +1,325 @@
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.parallax {
+    background-image: url("../images/forsev.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.parallax1 {
+    background-image: url("../images/sectors.jpg");
+    min-height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+
+.parallax-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+    line-height: 1.1;
+    border-radius: 10px;
+}
+
+.parallax-text1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 1.1;
+    border-radius: 10px;
+}
+
+.navbar {
+    padding: 10px;
+    background-color: #D1D1D1E0 !important;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar-nav .nav-link {
+    color: black !important;
+    margin-left: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btn-outline-success {
+    color: white !important;
+    border-color: white !important;
+}
+
+.btn-outline-success:hover {
+    background-color: white !important;
+    color: black !important;
+}
+
+.dropdown-menu {
+    background-color: rgba(209, 209, 209, 0.9);
+    border-radius: 5px;
+    border: none;
+    margin-top: 0;
+}
+
+.dropdown-item {
+    color: black
+}
+
+.dropdown-item:hover {
+    background-color: rgba(146, 8, 8, 0.1);
+}
+
+.navbar-nav .nav-item:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+
+.nav-link:hover {
+    padding: 6px;
+    background-color: black;
+    color: white !important;
+    border-radius: 5px;
+}
+
+.nav-link {
+    font-size: 17px;
+}
+
+#Quote {
+    padding: 7px;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+}
+
+.nav-link:active {
+    border: 1px solid black;
+    padding: 6px;
+}
+
+#seemore {
+    background-image: linear-gradient(to right, #2175bb, #579dd6fb);
+    color: white;
+    cursor: pointer;
+}
+
+#seemore:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+#learn {
+    background-image: linear-gradient(to right, #2175bb, #579dd6fb);
+    color: white;
+}
+
+#learn:hover {
+    background-color: #151C23;
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+}
+
+#servicesoffer {
+    font-size: 40px;
+    background-image: linear-gradient(to right, #2175bb, #579dd6fb);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    display: inline-block;
+}
+
+#Specialized {
+    font-size: 40px;
+    background-image: linear-gradient(to right, #2175bb, #579dd6fb);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    display: inline-block;
+}
+
+.back-to-top {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    transition: opacity 1s ease;
+    z-index: 99;
+}
+
+@media (max-width: 575.98px) {
+    .parallax-text {
+        font-size: 50px;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .parallax-text1 {
+        font-size: 22px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    #SOCIAL {
+        display: flex;
+        justify-content: flex-start !important;
+        margin-bottom: 10px;
+    }
+    #socialhead {
+        display: flex;
+        justify-content: start;
+    }
+
+    #Phonenum {
+        margin-left: 18px;
+        margin-top: 10px;
+    }
+
+    #Quote {
+        margin-left: 15px;
+    }
+
+    #comm {
+        margin-top: 30px;
+    }
+
+    #oill {
+        margin-top: 30px;
+    }
+
+
+}
